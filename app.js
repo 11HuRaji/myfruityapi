@@ -4,6 +4,7 @@ let fruits = require("./fruits.json");
 
 const app = express();
 
+app.use(cors());
 // const logger = require("./logger");
 // app.use(logger)
 
